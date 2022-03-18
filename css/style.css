@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* 
+        font-family: 'Barlow', sans-serif;
+        font-family: 'Fraunces', serif;
+    */
+
+}
+
+/* HEADER */
+header{
+    background-image: url("../images/desktop/image-header.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+header a{
+    text-decoration: none;
+    font-size: 24px;
+}
+header .logo img{
+    width: 200px;
+}
+
+header nav{
+    font-size: 18px;
+    
+}
+header nav a{
+    margin-right: 70px;
+    color: white;
+    
+}
+header nav a:hover{
+    font-weight: bold;
+    padding: 20px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+}
+header .title{
+    
+    position: absolute;
+    width: 95%;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 5.5em;
+    font-weight: bold;
+    letter-spacing: 9px;
+    font-family: 'Fraunces', serif;
+}
+header .title .image-arrow{
+    margin-top: 120px;
+    width: 45px;
+
+}
+/* SECOND SECTION */
+section .grid-container-column{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+section .grid-container-row{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
